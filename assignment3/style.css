@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+h1 {
+    text-align: center;
+}
+
+#todoInput {
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #333;
+    color: white;
+}
+
+#addBtn {
+    margin-left: 5px;
+}
+
+#todoList {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#todoList li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+
+#todoList li span {
+    flex: 1;
+}
+
+#todoList li button {
+    background: #d9534f;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+div {
+    margin-top: 15px;
+    text-align: center;
+}
+
+div button {
+    margin: 0 3px;
+}
