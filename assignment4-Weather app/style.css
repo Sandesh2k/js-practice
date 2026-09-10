@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.weather-app {
+    background: white;
+    width: 400px;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.search {
+    display: flex;
+    gap: 8px;
+}
+
+#cityInput {
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#status {
+    margin: 20px 0;
+}
+
+#weather {
+    line-height: 1.8;
+}
